@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1>Interactive Quiz</h1>
+        <p>1. What is the capital of France ? </p>
+        <input type="radio" id="paris" name="capital" value="Paris">
+        <label for="paris">Paris</label>
+        <input type="radio" id="london" name="capital" value="London">
+        <label>London</label>
+        <input type="radio" id="berlin" name="capital" value="berlin">
+        <label>Berlin</label>
+        <p>2. Which planet is known as Red Planet ?</p>
+        <input type="radio" id="marss" name="planet" value="Mars">
+        <label>Mars</label>
+        <input type="radio" id="venus" name="planet"  value="Venus">
+        <label>Venus</label>
+        <input type="radio" id="jupiter" name="planet"  value="Jupiter">
+        <label>Jupiter</label>
+        <p>3. What is the largest mammal on Earth ?</p>
+        <input type="radio" id="elephant" name="mammal" value="Elephant">
+        <label>Elephant</label>
+        <input type="radio" id="bluewhale" name="mammal"  value="BlueWhale">
+        <label>BlueWhale</label>
+        <input type="radio" id="giraffe" name="mammal" value="Giraffe">
+        <label>Giraffe</label><br>
+        <button id="btn" style="margin: 50px;background-color: green;border-radius: 5px;padding: 5px;">Submit</button>
+    </div>
+        <div class="container">
+            <h1>Interactive Quiz</h1>
+            <h2>The quiz is result</h2>
+            <p id="scoree"> The score is : </p>
+        </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
